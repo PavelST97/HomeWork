@@ -11,3 +11,10 @@ while i < len(my_list):
     i += 1
 
 print(my_new_list)
+
+my_new_list2 = []
+
+for el in list_1:
+    my_new_list2.append(el*-2)
+
+print(my_new_list2)
