@@ -17,3 +17,12 @@ d = list(itertools.zip_longest(n1, n2))
 d1 = dict(d)
 
 print(d1)
+
+n1 = list(dict_1.keys())
+n2 = list(dict_1.values())
+for ind, key in enumerate(dict_1.keys()):
+    n1[ind] = str(key) + str(len(key))
+d = list(itertools.zip_longest(n1, n2))
+d2 = dict(d)
+
+print(d2)
