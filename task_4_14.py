@@ -13,3 +13,10 @@ while i < n:
     i += 1
 
 print(fibonachi)
+
+fibonachi = [1, 1]
+
+for el in range(0, 13):
+    fibonachi.append(fibonachi[el] + fibonachi[el + 1])
+
+print(fibonachi)
